@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="container">
-      <a href="/#/index"><img src="/imgs/login-logo.png" alt="" /></a>
+      <a href="/#/index"><img src="/miMall/dist/imgs/login-logo.png" alt="" /></a>
     </div>
     <div class="wrapper">
       <div class="container">
@@ -132,7 +132,7 @@ export default {
     }
   }
   .wrapper {
-    background: url("/imgs/login-bg.jpg") no-repeat center;
+    background: url("/miMall/dist/imgs/login-bg.jpg") no-repeat center;
     .container {
       height: 576px;
       .login-form {

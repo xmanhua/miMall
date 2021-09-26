@@ -197,7 +197,7 @@ export default {
           width: 90px;
           height: 90px;
           border-radius: 50%;
-          background: url("/imgs/icon-gou.png") #80c58a no-repeat center;
+          background: url("/miMall/dist/imgs/icon-gou.png") #80c58a no-repeat center;
           background-size: 60px;
           margin-right: 40px;
         }
@@ -227,7 +227,7 @@ export default {
             display: inline-block;
             width: 14px;
             height: 10px;
-            background: url("/imgs/icon-down.png") no-repeat center;
+            background: url("/miMall/dist/imgs/icon-down.png") no-repeat center;
             background-size: contain;
             margin-left: 9px;
             transition: all 0.5s;
@@ -291,12 +291,12 @@ export default {
           }
         }
         .pay-ali {
-          background: url("/imgs/pay/icon-ali.png") no-repeat center;
+          background: url("/miMall/dist/imgs/pay/icon-ali.png") no-repeat center;
           background-size: 103px 38px;
           margin-top: 19px;
         }
         .pay-wechat {
-          background: url("/imgs/pay/icon-wechat.png") no-repeat center;
+          background: url("/miMall/dist/imgs/pay/icon-wechat.png") no-repeat center;
           background-size: 103px 38px;
         }
       }

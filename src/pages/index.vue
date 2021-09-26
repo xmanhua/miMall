@@ -10,7 +10,7 @@
                             <ul v-for="(item,i) in menuList" v-bind:key="i">
                                 <li v-for="(sub,j) in item" v-bind:key="j">
                                     <a v-bind:href="sub?'/#/product/'+sub.id:'/#/product/30'"><!--sub值为０就是false-->
-                                    <img v-lazy="sub?sub.img:'/imgs/item-box-1.png'" alt="">
+                                    <img v-lazy="sub?sub.img:'/miMall/dist/imgs/item-box-1.png'" alt="">
                                     {{sub?sub.name:'小米9'}}
                                     </a>
                                 </li>
@@ -57,7 +57,7 @@
 						</div>
 						<div class="banner">
 							<a href="/#/product/30">
-								<img v-lazy="'/imgs/banner-1.png'" alt="">
+								<img v-lazy="'/miMall/dist/imgs/banner-1.png'" alt="">
 							</a>
 						</div>
         </div>
@@ -138,42 +138,42 @@ export default {
             slideList: [
                 {
                     id: '42',
-                    img: '/imgs/slider/slide-1.jpg'
+                    img: '/miMall/dist/imgs/slider/slide-1.jpg'
                 },
                 {
                     id: '45',
-                    img: '/imgs/slider/slide-2.jpg'
+                    img: '/miMall/dist/imgs/slider/slide-2.jpg'
                 },
                {
                     id: '46',
-                    img: '/imgs/slider/slide-3.jpg'
+                    img: '/miMall/dist/imgs/slider/slide-3.jpg'
                 },
                 {
                     id: '',
-                    img: '/imgs/slider/slide-4.jpg'
+                    img: '/miMall/dist/imgs/slider/slide-4.jpg'
                 },
                 {
                     id: '',
-                    img: '/imgs/slider/slide-5.jpg'
+                    img: '/miMall/dist/imgs/slider/slide-5.jpg'
                 }
             ],
            menuList: [
                [
                    {
                        id: 30,
-                       img: '/imgs/item-box-1.png',
+                       img: '/miMall/dist/imgs/item-box-1.png',
                        name: '小米cc9',
                    },{
                        id: 31,
-                       img: '/imgs/item-box-2.png',
+                       img: '/miMall/dist/imgs/item-box-2.png',
                        name: '小米8青春版',
                    },{
                        id: 32,
-                       img: '/imgs/item-box-3.jpg',
+                       img: '/miMall/dist/imgs/item-box-3.jpg',
                        name: 'Redmi K20 Pro',
                    },{
                        id: 33,
-                       img: '/imgs/item-box-4.jpg',
+                       img: '/miMall/dist/imgs/item-box-4.jpg',
                        name: '移动4G专区',
                    },
 
@@ -183,16 +183,16 @@ export default {
             adsList: [
               {
                 id:33,
-                img:'/imgs/ads/ads-1.png'
+                img:'/miMall/dist/imgs/ads/ads-1.png'
               },{
                 id:48,
-                img:'/imgs/ads/ads-2.jpg'
+                img:'/miMall/dist/imgs/ads/ads-2.jpg'
               },{
                 id:45,
-                img:'/imgs/ads/ads-3.png'
+                img:'/miMall/dist/imgs/ads/ads-3.png'
               },{
                 id:47,
-                img:'/imgs/ads/ads-4.jpg'
+                img:'/miMall/dist/imgs/ads/ads-4.jpg'
               }
             ],
 						phoneList: [],
@@ -259,7 +259,7 @@ export default {
                 right:30px;
                 top:17.5px;
                 content:' ';
-                @include bgImg(10px,15px,'/imgs/icon-arrow.png');
+                @include bgImg(10px,15px,'/miMall/dist/imgs/icon-arrow.png');
               }
             }
             &:hover{
@@ -395,7 +395,7 @@ export default {
                   font-weight:bold;
                   cursor:pointer;
                   &:after{
-                    @include bgImg(22px,22px,'/imgs/icon-cart-hover.png');
+                    @include bgImg(22px,22px,'/miMall/dist/imgs/icon-cart-hover.png');
                     content:' ';
                     margin-left:5px;
                     vertical-align: middle;

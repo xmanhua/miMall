@@ -71,7 +71,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-1.jpg'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-1.jpg'" alt="" />
                     </div>
                     <div class="pro-name">小米CC9</div>
                     <div class="pro-price">1799元</div>
@@ -80,7 +80,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-2.jpg'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-2.jpg'" alt="" />
                     </div>
                     <div class="pro-name">小米壁画电视　65英寸</div>
                     <div class="pro-price">6999元</div>
@@ -89,7 +89,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-3.png'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-3.png'" alt="" />
                     </div>
                     <div class="pro-name">小米壁画电视　65英寸</div>
                     <div class="pro-price">6999元</div>
@@ -98,7 +98,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-4.jpg'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-4.jpg'" alt="" />
                     </div>
                     <div class="pro-name">小米壁画电视　65英寸</div>
                     <div class="pro-price">6999元</div>
@@ -107,7 +107,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-5.jpg'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-5.jpg'" alt="" />
                     </div>
                     <div class="pro-name">小米壁画电视　65英寸</div>
                     <div class="pro-price">6999元</div>
@@ -116,7 +116,7 @@
                 <li class="product">
                   <a href="" target="_blank">
                     <div class="pro-img">
-                      <img v-lazy="'/imgs/nav-img/nav-3-6.png'" alt="" />
+                      <img v-lazy="'/miMall/dist/imgs/nav-img/nav-3-6.png'" alt="" />
                     </div>
                     <div class="pro-name">小米壁画电视　65英寸</div>
                     <div class="pro-price">6999元</div>
@@ -233,7 +233,7 @@ export default {
         color: #ffffff;
         margin-right: 0;
         .icon-cart {
-          @include bgImg(16px, 12px, "/imgs/icon-cart-checked.png");
+          @include bgImg(16px, 12px, "/miMall/dist/imgs/icon-cart-checked.png");
           margin-right: 4px;
         }
       }
@@ -338,7 +338,7 @@ export default {
             padding-left: 14px;
           }
           a {
-            @include bgImg(18px, 18px, "/imgs/icon-search.png");
+            @include bgImg(18px, 18px, "/miMall/dist/imgs/icon-search.png");
             margin-left: 17px;
           }
         }

@@ -189,7 +189,7 @@ export default {
         margin-right: 17px;
         cursor: pointer;
         &.checked {
-          background: url("/imgs/icon-gou.png") #ff6600 no-repeat center;
+          background: url("/miMall/dist/imgs/icon-gou.png") #ff6600 no-repeat center;
           background-size: 16px 12px;
           border: none;
         }
@@ -266,7 +266,7 @@ export default {
             flex: 1;
             width: 14px;
             height: 12px;
-            background: url("/imgs/icon-close.png") no-repeat center;
+            background: url("/miMall/dist/imgs/icon-close.png") no-repeat center;
             background-size: contain;
             cursor: pointer;
           }

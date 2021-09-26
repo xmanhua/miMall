@@ -77,7 +77,7 @@
             v-if="false" 
           ><!--  infinite-scroll-disabled="busy" -->
             <img
-              src="/imgs/loading-svg/loading-spinning-bubbles.svg"
+              src="/miMall/dist/imgs/loading-svg/loading-spinning-bubbles.svg"
               alt=""
               v-show="loading"
             />

@@ -17,7 +17,8 @@ if (mock) {
 }
 
 //根据前端的跨域方式做调整,将代理的方式:/api , 例/a/b: /api/a/b => /a/b, 转发时api会自动去掉
-axios.defaults.baseURL = '/api';
+// axios.defaults.baseURL = '/api';
+axios.defaults.baseURL = '/miMall/dist/api';//git hubs
 //超时８秒
 axios.defaults.timeout = 8000;
 
@@ -47,7 +48,7 @@ axios.interceptors.response.use(function (response) {
 Vue.use(VueAxios, axios);
 Vue.use(VueCookie);
 Vue.use(VueLazyLoad, {
-    loading: '/imgs/loading-svg/loading-bars.svg'
+    loading: '/miMall/dist/imgs/loading-svg/loading-bars.svg'
 })
 Vue.prototype.$message = Message;
 Vue.config.productionTip = false//生产环境下的提示

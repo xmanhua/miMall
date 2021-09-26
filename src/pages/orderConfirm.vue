@@ -439,7 +439,7 @@ export default {
               width: 30px;
               height: 30px;
               border-radius: 50%;
-              background: url("/imgs/icon-add.png") #e0e0e0 no-repeat center;
+              background: url("/miMall/dist/imgs/icon-add.png") #e0e0e0 no-repeat center;
               background-size: 14px;
               margin: 0 auto;
               margin-top: 45px;

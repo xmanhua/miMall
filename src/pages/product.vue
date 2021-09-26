@@ -94,7 +94,7 @@ export default {
   .product{
     .content{
       .item-bg{
-        background:url('/imgs/product/product-bg-1.png') no-repeat center;
+        background:url('/miMall/dist/imgs/product/product-bg-1.png') no-repeat center;
         height:718px;
         text-align:center;
         h2{
@@ -126,12 +126,12 @@ export default {
         }
       }
       .item-bg-2{
-        background:url(/imgs/product/product-bg-2.png) no-repeat center;
+        background:url(/miMall/dist/imgs/product/product-bg-2.png) no-repeat center;
         height:480px;
         background-size:1226px 397px;
       }
       .item-bg-3{
-        background:url(/imgs/product/product-bg-3.png) no-repeat center;
+        background:url(/miMall/dist/imgs/product/product-bg-3.png) no-repeat center;
         height:638px;
         background-size:cover;
       }
@@ -162,7 +162,7 @@ export default {
           margin-bottom:58px;
         }
         .video-bg{
-          background:url('/imgs/product/gallery-1.png') no-repeat center;
+          background:url('/miMall/dist/imgs/product/gallery-1.png') no-repeat center;
           background-size:cover;
           width:1226px;
           height:540px;
@@ -217,7 +217,7 @@ export default {
               position:absolute;
               top:20px;
               right:20px;
-              @include bgImg(20px,20px,'/imgs/icon-close.png');
+              @include bgImg(20px,20px,'/miMall/dist/imgs/icon-close.png');
               cursor:pointer;
               z-index:11;
             }
