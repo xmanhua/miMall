@@ -16,7 +16,7 @@ module.exports = {//https://cli.vuejs.org/zh/config/#pages
     chainWebpack:(config)=>{
         config.plugins.delete('prefetch');
     },
-    publicPath: './',//子路径名,github用
+    publicPath: '/miMall/dist',//子路径名,github用
     // outputDir: 'dist',//不写也一样，默认就是dist
     // indexPath: 'index2.html',//生成首页
     // productionSourceMap: false,// 不生成map文件，不写也一样，默认不生成map

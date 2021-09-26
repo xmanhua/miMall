@@ -18,7 +18,6 @@ if (mock) {
 
 //根据前端的跨域方式做调整,将代理的方式:/api , 例/a/b: /api/a/b => /a/b, 转发时api会自动去掉
 axios.defaults.baseURL = '/api';
-// axios.defaults.baseURL = '/miMall/dist/api';//git hubs
 //超时８秒
 axios.defaults.timeout = 8000;
 
