@@ -134,7 +134,7 @@ export default {
     },
     paySubmit(payType) {
       if (payType == 1) {
-        window.open("/#/order/alipay?orderId=" + this.orderId, "_blank");
+        window.open("./#/order/alipay?orderId=" + this.orderId, "_blank");
       } else {
         this.axios
           .post("/pay", {

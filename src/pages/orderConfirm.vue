@@ -145,7 +145,7 @@
             </div>
           </div>
           <div class="btn-group">
-            <a href="/#/cart" class="btn btn-default btn-large">返回购物车</a>
+            <a href="./#/cart" class="btn btn-default btn-large">返回购物车</a>
             <a href="javascript:;" class="btn btn-large" @click="orderSubmit"
               >去结算</a
             >

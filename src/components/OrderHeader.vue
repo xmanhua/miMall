@@ -2,7 +2,7 @@
   <div class="order-header">
     <div class="container clearfix">
       <div class="header-logo">
-        <a href="/#/index"></a>
+        <a href="./#/index"></a>
       </div>
       <div class="title">
         <h2>{{title}}<slot name="tip"></slot></h2>

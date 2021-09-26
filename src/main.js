@@ -32,7 +32,7 @@ axios.interceptors.response.use(function (response) {
         return res.data;
     } else if (res.status == 10) {
         if (path != '#/index') {
-            window.location.href = '/#/login';
+            window.location.href = '#/login';
         }
         return Promise.rejece(res);//抛出去，不会进到成功里面
     } else {

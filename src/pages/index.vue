@@ -9,7 +9,7 @@
                         <div class="children">
                             <ul v-for="(item,i) in menuList" v-bind:key="i">
                                 <li v-for="(sub,j) in item" v-bind:key="j">
-                                    <a v-bind:href="sub?'/#/product/'+sub.id:'/#/product/30'"><!--sub值为０就是false-->
+                                    <a v-bind:href="sub?'./#/product/'+sub.id:'./#/product/30'"><!--sub值为０就是false-->
                                     <img v-lazy="sub?sub.img:'/miMall/dist/imgs/item-box-1.png'" alt="">
                                     {{sub?sub.name:'小米9'}}
                                     </a>
@@ -42,7 +42,7 @@
                 </div>
                 <swiper v-bind:options="swiperOption"><!-- :是v-bind:的缩写，@click是v-on:click的缩写,options是指定swiper要绑定的数据-->
                     <swiper-slide v-for="(item,index) in slideList" :key="index">
-                        <a :href="'/#/product/' + item.id"><img v-lazy="item.img" /></a>
+                        <a :href="'./#/product/' + item.id"><img v-lazy="item.img" /></a>
                      </swiper-slide>
                      <!-- Optional controls -->
                     <div class="swiper-pagination"  slot="pagination"></div>
@@ -51,12 +51,12 @@
                 </swiper>
             </div>
             <div class="ads-box">
-							<a v-bind:href="'/#/product/'+item.id" v-for="(item,index) in adsList" v-bind:key="index">
+							<a v-bind:href="'./#/product/'+item.id" v-for="(item,index) in adsList" v-bind:key="index">
 								<img v-lazy="item.img" alt="">
 							</a>
 						</div>
 						<div class="banner">
-							<a href="/#/product/30">
+							<a href="./#/product/30">
 								<img v-lazy="'/miMall/dist/imgs/banner-1.png'" alt="">
 							</a>
 						</div>

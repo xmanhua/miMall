@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="container">
-      <a href="/#/index"><img src="/miMall/dist/imgs/login-logo.png" alt="" /></a>
+      <a href="./#/index"><img src="/miMall/dist/imgs/login-logo.png" alt="" /></a>
     </div>
     <div class="wrapper">
       <div class="container">
